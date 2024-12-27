@@ -51,7 +51,7 @@ on:
 jobs:
   precondition:
     name: Check changes
-    runs-on: ubuntu-22.04
+    runs-on: jjj2
     env:
       GITHUB_PREV_SHA: ${{ github.event.before }}
     outputs:
